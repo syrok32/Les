@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Задание 2");
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arryDouble.length; i++) {
             if (i == arryDouble.length - 1) {
                 System.out.println(arryDouble[i]);
                 break;
@@ -24,7 +24,7 @@ public class Main {
         }
 
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arryInteger.length; i++) {
             if (i == arryInteger.length - 1) {
                 System.out.println(arryInteger[i]);
                 break;
